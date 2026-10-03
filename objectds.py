@@ -58,3 +58,49 @@ twoDarray = [[1, 2, 3], [4, 5, 6]]
 print(twoDarray[0][1])
 
 
+# IF STATEMENTS
+
+
+x = int(input("Enter a number: "))
+if x < 0:
+    print("Negative number")
+
+elif x == 0:
+    print("Zero")
+
+else:
+    print("Positive number")
+
+
+#FOR LOOP
+
+words = ["apple", "banana", "cherry"]
+
+for word in words:
+    print(word)
+    print(len(word))
+
+
+# range() function
+
+for i in range(5):
+    print(i, end="") # prints numbers from 0 to 4
+
+
+
+print(list(range(1, 10))) # prints numbers from 1 to 9
+print(sum(range(1, 10))) # prints the sum of numbers from 1 to 9
+
+
+for n in range(2, 10):
+        if n  == 5:
+            print("hi5")
+            break
+
+
+
+
+def adding (a, b):
+    return a + b
+
+print(adding(2, 3)) # returns 5
